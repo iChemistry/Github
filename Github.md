@@ -62,7 +62,8 @@
     
 
 #### 删除Repository文件:
-    不管先在本地还是在Repo删除，效果一样  
+    不管先在本地还是在Repo删除，效果一样    
+
     git status
     git rm 'file'  
     git commit -m 'rm'
