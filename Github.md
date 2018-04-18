@@ -11,7 +11,7 @@
     git commit -m "tittle"  
     git push  
 
-##### push 不成功:
+##### push 不成功(或者先pull再push):
     因为githun中的Readme.md文件不在本目录中  
     git add  
     git commit -m "tittle"  
