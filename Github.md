@@ -1,0 +1,55 @@
+### 1.文件传输  
+----
+#### Github >> 本地:
+  
+    git reset --hard  
+    git pull
+
+#### 本地 >> Github:
+
+    git add file.md  
+    git commit -m "tittle"  
+    git push  
+
+##### push 不成功:
+    因为githun中的Readme.md文件不在本目录中  
+    git add  
+    git commit -m "tittle"  
+    git pull --rebase origin master  
+    git push -u origin master
+    之后就可以直接push了
+
+----
+#### Repository >> 本地:  
+1. 生产SHH Key:直接输入'ssh',如有提示，说明已安装。  
+紧接着输入'ssh-keygen -t rsa',连续三个回车（不要输入密码）,然后会在user文件夹中生产个.ssh文件夹(包含3个文件)。  
+前往Github,依次'setting >SSH Keys >New SHH Key'。  
+Tittle处写'id rsa.pub',再把'id rsa.pub'里的内容复制进去。  
+SHH Keys添加成功后，输入'ssh -T git@github.com'进去测试  
+  
+2. git clone+地址(Repo那有)。
+
+#### 本地 >> Repository:
+    新建文件夹，新建文件（git bash here)  
+    git init  
+    git add  
+    git commit -m "initial commit"  
+    git remote add origin （地址）  
+    git push origin master
+
+##### 新建文件2如何push?
+
+    git add 'file'  
+    git commit -m "new"  
+    git push  
+
+----
+
+### 2.文件删除
+------
+#### 删除本地文件:
+    git rm 'file'  
+    git commit -m 'rm'
+
+#### 删除Repository文件:
+
