@@ -1,7 +1,7 @@
 ## 1.文件传输   
 ----  
->1.强烈建议先在本地创建或修改文件，在push到github上。  
->2.若是Repositry，先在github上创建，在clone到本地。  
+>1.强烈建议先在本地创建或修改文件，再push到github上。  
+>2.若是Repositry，先在github上创建，再clone到本地。  
 
 ### Github >> 本地:
   
